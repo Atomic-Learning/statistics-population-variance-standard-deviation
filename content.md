@@ -10,7 +10,7 @@ When calculating variance and standard deviation, it's important to distinguish 
 Variance measures the average squared deviation of each data point from the mean. The population variance (often denoted as $\sigma^2$) is calculated as:
 
 $$
-\sigma^2 &= \frac{1}{N} \sum_{i=1}^{N} (x_i - \mu)^2
+\sigma^2 &= \frac{1}{N} \sum_{i=1}^{N} (x_i - \mu)^2 \\
 & = \frac{1}{N} \sum_{i=1}^{N} x_i^2 - \mu^2
 $$
 
@@ -19,7 +19,7 @@ where $N$ is the number of data points in the population, $x_i$ represents each 
 The sample variance (denoted as $s^2$) is calculated as:
 
 $$
-s^2 &= \frac{1}{n-1} \sum_{i=1}^{n} (x_i - \bar{x})^2
+s^2 &= \frac{1}{n-1} \sum_{i=1}^{n} (x_i - \bar{x})^2 \\
 &= \frac{\sum_{i=1}^{n} x_i^2 - n\bar{x}^2}{n-1}
 $$
 
@@ -30,16 +30,16 @@ where $n$ is the number of data points in the sample, $x_i$ represents each data
 Standard deviation is the square root of variance and provides a measure of dispersion in the same units as the data. The population standard deviation (denoted as $\sigma$) is calculated as:
 
 $$
-\sigma &= \sqrt{\sigma^2}
-&= \sqrt{\frac{1}{N} \sum_{i=1}^{N} (x_i - \mu)^2}
+\sigma &= \sqrt{\sigma^2} \\
+&= \sqrt{\frac{1}{N} \sum_{i=1}^{N} (x_i - \mu)^2} \\
 &= \sqrt{\frac{1}{N} \sum_{i=1}^{N} x_i^2 - \mu^2}
 $$
 
 The sample standard deviation (denoted as $s$) is calculated as:
 
 $$
-s &= \sqrt{s^2}
-&= \sqrt{\frac{1}{n-1} \sum_{i=1}^{n} (x_i - \bar{x})^2}
+s &= \sqrt{s^2} \\
+&= \sqrt{\frac{1}{n-1} \sum_{i=1}^{n} (x_i - \bar{x})^2} \\
 &= \sqrt{\frac{\sum_{i=1}^{n} x_i^2 - n\bar{x}^2}{n-1}}
 $$
 
