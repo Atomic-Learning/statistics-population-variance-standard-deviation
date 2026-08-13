@@ -1,22 +1,18 @@
 {
-    "title": "",
-    "slug": "",
-    "description": "",
+    "title": "Statistics: Variance and Standard Deviation",
+    "slug": "statistics-variance-standard-deviation",
+    "description": "An introduction to the concepts of variance and standard deviation including the difference between population and sample values.",
     "authors": [
-        "",
-        ""
+        "chris-cooling"
     ],
     "tags": [
-        "",
-        ""
+        "maths",
+        "statistics"
     ],
-    "duration": 0,
+    "duration": 10,
     "prerequisites": [
-        "",
-        ""
+        "maths-summation-notation"
     ],
     "related": [
-        "",
-        ""
     ]
 }
