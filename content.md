@@ -4,10 +4,13 @@ This means that the standard deviation will have the same units as the original 
 
 # Population vs Sample Variance and Standard Deviation
 
-When calculating variance and standard deviation, it's important to distinguish between population and sample data. When we have complete data for an entire population, we use the population variance and standard deviation formulas. However, when we only have a sample of the population, we use the sample formulas to estimate the population parameters. Using $n-1$ instead of $n$ corrects the tendency of the sample variance to underestimate the population variance.
+When calculating variance and standard deviation, it's important to distinguish between population and sample data. When we have complete data for an entire population, we use the population formulas. However, when we only have a sample of the population, we use the sample formulas to estimate the population variance and standard deviation from the sample data.
 
 # Variance
-Variance measures the average squared deviation of each data point from the mean. The population variance (often denoted as $\sigma^2$) is calculated as:
+Variance measures the average squared deviation of each data point from the mean. 
+
+## Population Variance
+The population variance (often denoted as $\sigma^2$) is calculated as:
 
 $$
 \sigma^2 &= \frac{1}{N} \sum_{i=1}^{N} (x_i - \mu)^2 \\
@@ -16,6 +19,7 @@ $$
 
 where $N$ is the number of data points in the population, $x_i$ represents each data point from the population, and $\mu$ is the population mean. Either of the two formulas can be used to calculate the population variance, depending on which is more convenient.
 
+## Sample Variance
 The sample variance (denoted as $s^2$) is calculated as:
 
 $$
@@ -27,7 +31,10 @@ where $n$ is the number of data points in the sample, $x_i$ represents each data
 
 # Standard Deviation
 
-Standard deviation is the square root of variance and provides a measure of dispersion in the same units as the data. The population standard deviation (denoted as $\sigma$) is calculated as:
+Standard deviation is the square root of variance and provides a measure of dispersion in the same units as the data. 
+
+## Population Standard Deviation
+The population standard deviation (denoted as $\sigma$) is calculated as:
 
 $$
 \sigma &= \sqrt{\sigma^2} \\
@@ -35,6 +42,7 @@ $$
 &= \sqrt{\frac{1}{N} \sum_{i=1}^{N} x_i^2 - \mu^2}
 $$
 
+## Sample Standard Deviation
 The sample standard deviation (denoted as $s$) is calculated as:
 
 $$
