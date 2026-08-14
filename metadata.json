@@ -9,7 +9,7 @@
         "maths",
         "statistics"
     ],
-    "duration": 3,
+    "duration": 4,
     "prerequisites": [
         "maths-summation-notation",
         "statistics-mean"
