@@ -11,6 +11,7 @@ $$
 $$
 
 where:
+
 - $N$ is the number of data points in the population
 - $x_i$ represents each data point from the population
 - $\mu$ is the population mean
